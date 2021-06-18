@@ -138,7 +138,7 @@ class SnsProducerTest extends TestCase
             'MessageAttributes' => [
                 'Headers' => [
                     'DataType' => 'String',
-                    'StringValue' => '[{"hkey":"hvaleu"},{"key":"value"}]',
+                    'StringValue' => 'W3siaGtleSI6Imh2YWxldSJ9LHsia2V5IjoidmFsdWUifV0=',
                 ],
             ],
             'TopicArn' => 'theTopicArn',
@@ -189,7 +189,7 @@ class SnsProducerTest extends TestCase
             'MessageAttributes' => [
                 'Headers' => [
                     'DataType' => 'String',
-                    'StringValue' => '[[],[]]',
+                    'StringValue' => 'W1tdLFtdXQ==',
                 ],
                 'Foo' => [
                     'DataType' => 'String',
